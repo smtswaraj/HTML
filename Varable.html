@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css Varable</title>
+    <style>
+        :root
+        {
+            --bgcolour:rgb(15, 100, 228);
+            --wid:400px;
+        }
+        .contener
+        {
+            display: flex;
+            
+            background-color: var(--bgcolour);
+            max-width: var(--wid);
+            margin: auto;
+            
+           
+        }
+        .box
+        {
+            
+        
+            height: 200px;
+            width: 200px;
+          background-color:rgba(196, 32, 32 ,0.01);
+            border: 2px solid red;
+            margin: 3px 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+</body>
+</html>

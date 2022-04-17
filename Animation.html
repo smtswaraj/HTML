@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <Style>
+        .contener
+        {
+            background-color: green;
+            height: 200px;
+
+        }
+        .box
+        {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            /* animation-name: box;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 4;
+            animation-delay: 3s; */
+            
+            
+            /* animation-fill-mode: backwards; */
+            /* animation-direction:alternate; */
+            animation: box 2s ease-in-out 3s  4 forwards ;
+        }
+        @keyframes box
+        {
+            0%
+            {
+                position: relative;
+                top: 300px;
+                left: 0px;
+            }
+            35%
+            {
+                position: relative;
+                top: 300px;
+                left: 300px;  
+            }
+            65%
+            {
+                position: relative;
+                top: 0px;
+                left: 300px; 
+            }
+            100%
+            {
+                position: relative;
+                top: 0px;
+                left: 0px; 
+            }
+        }
+
+        /* @keyframes box
+        {
+            form
+            {
+                width: 200px;
+            }
+            to
+            {
+                width: 900px;
+            }
+        } */
+    </Style>
+</head>
+<body>
+    <div class="contener">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic consept of js</title>
+    
+</head>
+
+<body>
+    <h1>Hello js</h1>
+    <hr>
+    Time is : <span style="font-size: 2rem;color: rgb(157 0 255);" id="sp"></span>
+    <section>
+        <p style="color: red; text-align: justify; font-family:cursive  ;" id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, totam optio. Cumque ullam esse
+            facere non saepe cum necessitatibus culpa. Vitae exercitationem, eius rerum eum ea ducimus blanditiis odio
+            optio consequuntur at? Et recusandae tenetur omnis, expedita veniam fuga aut hic, corporis cumque numquam
+            voluptates ipsam impedit. Asperiores, non numquam! Ea commodi explicabo id reprehenderit error temporibus
+            harum quaerat, suscipit ex repellendus ipsum, iure laboriosam hic nesciunt ratione repudiandae qui dolores.
+            Rerum repellat blanditiis nobis adipisci distinctio, accusantium necessitatibus numquam in odio inventore,
+            quos tenetur. Incidunt dolor dolore iusto fuga tenetur animi hic consequuntur non rerum sit labore corrupti
+            odio, assumenda unde delectus, perferendis placeat architecto distinctio. Facere cumque explicabo
+            exercitationem numquam. Optio earum ullam nostrum quia similique, deserunt repellendus hic iure atque
+            aspernatur labore eum reiciendis non temporibus ipsa consequatur vitae distinctio voluptatem aperiam
+            corporis qui nulla repellat exercitationem! Temporibus itaque commodi labore est vel totam voluptatum
+            placeat repudiandae cum dolores pariatur, molestias molestiae quae eligendi. Consequuntur, quia vero? Labore
+            quae nemo dolorem laborum at distinctio eveniet facilis, accusantium cupiditate velit beatae deleniti
+            dolores nulla! Cumque commodi dolorum delectus. Odio eveniet in provident, sit velit nam quos voluptatibus
+            mollitia corporis quisquam cumque nobis repudiandae itaque quas porro animi laudantium.</p>
+    </section>
+    <button>buttom</button>
+</body>
+<script>
+    // let p
+    // console.log(p) 
+    // function func() {
+    //    p = document.getElementById("para");
+    // if(p.style.display != 'none'){
+
+    //     p.style.display ='none';
+
+
+    // }
+    // else{
+
+    //     p.style.display = 'block'
+    // }
+    // p = document.querySelector("#para");
+    // console.log(p,"hello");
+    // p.addEventListener('click' , function f()
+    // {
+    //    alert("hello");
+    // });
+
+    // }
+    // var f = document.findviewbyid("para")
+    // alert("hello");
+    // var prompt = prompt("what is your name" , "swaraj");
+    // var prompt = confirm("what is your name");
+    // console.log(prompt)
+
+
+    // console.log("Hello js");
+    // let num1 = 3;
+    // {
+    //     var num = 4;
+    //     console.log("number is  " + num);       // var is alouse globle varable but let maybe local or globalvarable.
+    // }
+    // console.log("number is " + (num1 + num));
+    // const name = "swaraj"; // we can't change constand .
+    // var name3 = name + 1;
+    // console.log(name3);
+    // var nem = ['swaraj', "dhoraj", "moraj", "foraj"];
+    // nem.forEach(function name(params) {
+
+    //     console.log(params + " is a good boy");
+
+    // });
+    // for(Element of nem)
+    // {
+    //     console.log(Element + " is a bad boy");
+    // }
+    // console.log(nem.length)
+    // let i
+    // for(i=0; i<nem.length; i++)
+    // {
+    //     console.log(nem[i] + " is a bad boy");
+    // }
+
+    // var obj = {
+    //     name: "swaraj",
+    //     salary: 2,
+    //     hight: "500 ft",
+    // }
+    // console.log(obj);
+    // for (key in obj) {
+    //     console.log(`${key} of the employ is : ${obj[key]}`)
+    // }
+    // console.log(`${obj["salary"]} is a good boy`);
+    // name(nem);
+    // let neme = nem.substr(0, 4);
+    // console.log(neme + " is a good boy");
+    function time()
+    {
+        tim = new Date();
+        tt = document.getElementById("sp").innerHTML= tim;
+        console.log(tt)
+    }
+    // clearInterval = Intervalid; // this help for clear settimeinterval functon.
+    setInterval(time , "1000") // tepit.
+    // console.log(setInterval)
+    // Intervalid = setInterval(time , "1000");
+    // clearTimeout = timeout; // this help for clear settimeout functon. 
+    // setTimeout(time , "5000") //no tepit.
+    // timeout = setTimeout(time , "5000");
+    // Intervalid = settimeout(time , "1000");
+
+    // console.log(interval);
+    // let t  = time();
+    // let time = new Date('2000' ,'1' ,'29', '9','6','3','5000');
+    // tim = time.getFullYear();
+    // tim = time.getMilliseconds();
+    // console.log(tim);
+    // time.setMilliseconds(1000);
+    // console.log(time);
+    // function fun() //this is nurmal function.
+    // {
+    //     console.log("hello")
+    // };
+
+    // fun1 = a => console.log(a*a); //this is arro function.
+    // let obj =
+    // {
+    //     name:'employ',
+    //     id:'4756',
+    //     it : ['swaraj','rahul', ' sonali','rita'],
+    //     fn()
+    //     {
+    //         iit = 'employ'
+    //         this.it.forEach((element)=>{
+    //             console.log( this.id ,iit, element + ' good morning')
+    //         });
+
+
+
+    //     }
+    // }
+    // obj.fn();
+    // fu = ()=>console.log('hello');
+
+    // let m = Math;
+    // console.log(m)
+    // let a = 45.9
+    // PI = Math.PI;
+    // let num = Math.sin(PI/2);
+    // console.log(num)
+
+    // how to use jation file.
+//     let ob = {
+//         name:'swaraj',
+//         salary:'2',
+//         hight:'5ft',
+//     }
+//    a =  JSON.stringify(ob)
+//    b = a.replace("2","3")
+//    d = JSON.parse(b)
+
+//     console.log(d)
+
+
+</script>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>pseudo selector</title>
+        <Style>
+       h1 a[target]
+        {
+            color: red;
+        }
+        .para
+        {
+            text-align: center;
+            font-size: 40px;
+        }
+        /* div :nth-child(3)
+        {
+            color: red;
+        } */
+        /* div :nth-child(2n+0)
+        {
+            color: red;
+        } */
+        /* div :nth-child(2n+3)
+        {
+            color: red;
+        } */
+        input
+        {
+            display: block;
+            margin: auto;
+        }
+       input[type = "number"]
+        {
+            border: 2px solid red;
+            color: red;
+            font-size: 30px;
+        }
+       input[type = "text"]
+        {
+            border: 2px solid rgb(0, 255, 64);
+            color: rgb(29, 214, 112);
+            font-size: 30px;
+        }
+       h1 a
+        {
+            display: block;
+            width: 500px;
+            margin: auto;
+        }
+        a 
+        {
+            text-align: center;
+        }
+     
+
+    </Style>
+</head>
+<body>
+    <h1><a href="https://www.google.com" target="_blank">Google</a></h1>
+    <h1><a href="https://www.google.com" >Google</a></h1>
+    <form action="" id="form">
+        <input type="text" placeholder="Enter your name">
+        <input type="number" placeholder="Enter your number">
+        <input type="submit" value="Submit">
+
+    </form>
+    <div>
+        <p class="para" id="graph1">Swaraj Nayak</p>
+        <p class="para" id="graph2">Swaraj Nayak</p>
+        <p class="para" id="graph3">Swaraj Nayak</p>
+        <p class="para" id="graph4">Swaraj Nayak</p>
+        <p class="para" id="graph5">Swaraj Nayak</p>
+        <p class="para" id="graph6">Swaraj Nayak</p>
+        <p class="para" id="graph7">Swaraj Nayak</p>
+    </div>
+</body>
+</html>

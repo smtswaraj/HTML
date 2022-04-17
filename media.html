@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        .graph
+        {
+            font-size: 50px;
+            background: rgb(247, 5, 5);
+            text-align: center;
+            display: none;
+
+        }
+        @media only screen and (max-width:300px)
+            {
+                #para1
+                {
+                    display: block;
+                }
+            }
+        @media only screen and (min-width:300px) and (max-width:500px)
+            {
+                #para2
+                {
+                    display: block;
+                }
+            }
+        @media only screen and (min-width:500px) and (max-width:700px)
+            {
+                #para3
+                {
+                    display: block;
+                }
+            }
+        @media only screen and (min-width:700px) and (max-width:900px)
+            {
+                #para4
+                {
+                    display: block;
+                }
+            }
+    </style>
+</head>
+<body>
+    <p id="para1" class="graph">phon</p>
+    <p id="para2" class="graph">tab</p>
+    <p id="para3" class="graph">Desktop</p>
+    <p id="para4" class="graph">moniter</p>
+</body>
+</html>

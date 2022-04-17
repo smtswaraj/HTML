@@ -1,0 +1,214 @@
+/* *
+{
+    margin: 0px;
+    padding: 0px;
+} */
+html
+{
+    scroll-behavior: smooth;
+}
+#navagation
+{
+    display: flex;
+    position: relative;
+    position: sticky;
+    top: 0px;
+    
+}
+#navagation ul li
+{
+    list-style: none;
+}
+#navagation ul li a
+{
+    text-decoration: none;
+    margin: 3px 9px;
+    padding: 2px;
+    font-size: 1rem;
+    color: white;
+    
+}
+#navagation ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navagation .logo
+{
+    margin: 3px 4px;
+    padding: 5px;
+    
+}
+#navagation .logo img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+#navagation::before
+{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
+#hading1
+{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+    
+}
+#hading1::before
+{
+    content: "";
+    background: url(IMG/bg.jpg) center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -3;
+    opacity: 0.4;
+}
+#hading2
+{
+    display: flex;
+    position: relative;
+    top: 5px;
+    flex-wrap : wrap;
+}
+#hading2 div
+{
+   height: 200px;
+   width: 200px;
+}
+#hading2 div img
+{
+    height: 106%;
+    width: 147%;
+    position: relative;
+    top: -4px;
+    left: -47px;
+    
+}
+#hading2 .box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    /* margin: 19px auto; */
+    width: 100%;
+    height: 100%;
+    margin: 3px;
+    border-radius: 11px;
+    background-color: rgb(221, 189, 221);
+}
+
+.para
+{
+    text-align:justify;
+    padding: 13px;
+}
+#hh
+{
+    text-align: center;
+}
+#hhh
+{
+    text-align: center;
+}
+#btn
+{
+    background-color: tomato;
+    color:white;
+    border-radius: 5px;
+    
+}
+#hading3
+{
+    display: flex;
+}
+#hading3 .logo
+{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+#hading3 .logo img
+{
+   height: 100%;
+   width: 25%;
+}
+#tt
+{
+    position: relative;
+    top: 25px;
+}
+#gg
+{
+    position: relative;
+    top: 3px;
+    
+}
+#hading4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+   
+    
+}
+#hading4 input
+{
+    font-size: 28px;
+}
+#hading4 label
+{
+    font-size: 29px;
+}
+#hading4::before
+{
+    content: "";
+    background-image: url(IMG/servic4.jpg);
+    position: absolute;
+    background-size: 100%;
+    top: 1529px;
+    left: 2px;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.4;
+
+}
+#hhhh
+{
+    text-align: center;
+}
+#home
+{
+    font-size: 2rem;
+}
+footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    top:173px;
+
+    
+}
+
+
